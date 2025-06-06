@@ -1,2 +1,32 @@
-# RNN_model
-Built an LSTM-based RNN to predict stock prices using past closing values. Preprocessed with MinMaxScaler, trained on historical data from infy_stock.csv, and visualized predictions. Demonstrates time-series forecasting with deep learning.
+# 📈 RNN (LSTM) for Stock Price Prediction
+
+This project uses a **Recurrent Neural Network (RNN)** with **LSTM layers** to forecast stock prices based on historical data. The notebook trains on time-series sequences of closing prices and predicts future values.
+
+---
+
+## 🧠 Key Features
+
+- 📥 Loads stock data from `infy_stock.csv`
+- 🔄 Scales prices using MinMaxScaler
+- 📊 Creates sequences of closing prices
+- 🧠 Trains an LSTM model using Keras
+- 📉 Visualizes prediction vs actual prices
+
+---
+
+## 🛠 Libraries Used
+
+- Python  
+- TensorFlow/Keras  
+- NumPy  
+- Pandas  
+- Matplotlib  
+- scikit-learn
+
+---
+
+## 🚀 How to Run
+
+1. Install dependencies:
+```bash
+pip install tensorflow pandas numpy matplotlib scikit-learn
